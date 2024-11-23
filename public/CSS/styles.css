@@ -1,0 +1,436 @@
+      /* Header Styles */
+.header {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items */
+    padding: 10px; /* Add some padding */
+    background-color: #ece7c2; /* Optional: background color */
+}
+
+.title {
+    font-style: italic;
+    font-size: 2rem; /* Adjust font size */
+    color: #dc3545; /* Customize color */
+}
+
+    /* Logo Styles */
+
+.logo-container {
+    display: flex; 
+}
+
+.logo {
+    height: auto; /* Maintain aspect ratio */
+    width: 200px; /* Set a fixed width for the logo */
+    margin-right: 15px; /* Space between logo and title */
+}
+
+.main-container {
+    width: 100%; 
+}
+    /* Navigation Styles */
+
+.navbar {
+    width: 100%; /* Full width */
+}
+
+.navbar-nav {
+    
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center items horizontally */
+  flex-direction: row; /* Ensure navbar items are in a row */
+  width: 100%; /* Full width */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */  
+}
+
+
+.navbar-brand {
+    font-style: italic;
+    font-weight: bolder;
+}
+ 
+
+.nav-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-left: 20px; /* Space between nav items */
+    font-size: 20px;
+}
+
+.nav-item i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.nav-item:hover {
+    background-color: #228dff;
+    color: blue;
+}
+      /* CarouselBanner Styles */
+
+.custom-carousel {
+    height: auto;
+    text-align: center;
+}
+
+.custom-carousel img {
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px;
+    width: 10%;
+}
+
+  /* Footer Styles */
+
+.footer {
+    background-color: #726868;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer .icons {
+    margin: 10px 0;
+}
+
+.footer .icon {
+    margin: 0 10px;
+    color: #160909;
+    font-size: 24px;
+    text-decoration: none;
+    width: 60px; /* Circle diameter */
+    height: 60px; /* Circle diameter */
+    border-radius: 50%; /* Makes the icon circular */
+    background-color: white; /* Background color of the circle */
+    line-height: 60px;/* Center the icon vertically */
+    text-align: center; /* Center the icon horizontally */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.footer .icon:hover {
+    background-color: #24772f; /* Change background on hover */
+}
+
+
+.footer p {
+    margin: 10px 0;
+}
+
+  /* AboutUs Style Section */
+
+.about-container {
+    background-color: lightblue;
+    padding: 5px;
+    height: 100h; /* Make the container full height */
+    width: 100%; /* Ensure full width */
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Center vertically */
+}
+.about-content {
+    display: flex;
+    width: 100%;
+}
+
+.text-section {
+    flex: 1; /* Takes up remaining space */
+    padding: 5px; /* Add some padding */
+}
+
+.image-section {
+    flex: 1; /* Takes up equal space as text section */
+    display: flex;
+    justify-content: center; 
+    align-items: center; /* Center the image vertically */
+   
+}
+
+.image-section img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.heading {
+    font-size:32px;
+    color: #c00; 
+}
+
+.border-bottom-line {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker color for text */
+}
+
+div {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+    /* Login Styles */
+
+.login-container {
+    max-width: 400px; /* Limit width */
+    margin: auto; /* Center the form */
+    padding: 20px; /* Add some padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.login-form, .create-user-form {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    margin-bottom: 20px; /* Space between forms */
+}
+
+input {
+    padding: 10px; /* Add padding inside input */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded edges */
+}
+
+button {
+    background-color: green; 
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+button:hover {
+    background-color: #89c195; 
+}
+
+/* Menu Styles */
+
+.menu-container {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.menu-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.item-details {
+    display: flex; /* Use flexbox to align elements horizontally */
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1; /* Allows the details section to take up available space */
+}
+
+.item-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px; /* Space between name and description */
+}
+
+.item-description {
+    margin-right: 10px;
+}
+
+.item-price {
+    margin-right: 10px; /* Space between price and button */
+    font-weight: bold;
+}
+/* OrderButton Styles */
+
+.order-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #0056b3;
+}
+
+/* ContactUsContainer Styles */
+
+.contact-us-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100h;
+}
+
+/* Map Styles */
+
+.map-container {
+    max-width: 600px;
+    margin: 20px auto;  /* Space between sections */
+    padding: 20px; /* More padding for better spacing */
+    flex: 1; /* Takes one part of the space */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+    justify-content: center; /* Center the map horizontally */
+    align-items: stretch; /* Make children stretch to fill the container */
+}
+
+.map {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    max-height: 100%;
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Contactinfo Styles */
+
+.contact-info {
+    max-width: 600px; 
+    margin: 20px auto;  /* Space between sections */
+    padding: 20px; /* More padding for better spacing */
+    flex: 1; /* Takes up one part of the space */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transform on hover */
+}
+
+.contact-info:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.contact-info h2 {
+    color: #333; /* Darker color for the header */
+    margin-bottom: 15px; /* Space below the header */
+}
+
+.contact-info p {
+    color: #555; /* Slightly lighter color for text */
+    margin: 5px 0; /* Space between paragraphs */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+/* Contactforn Styles */
+
+label {
+    display: block; /* Make label a block element */
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Bold labels for better readability */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+textarea {
+    height: 100px; /* Set a height for the textarea */
+    resize: none; /* Disable resizing */
+}
+
+
+.contact-form {
+    max-width: 600px; 
+    margin: 20px auto;  /* Space between sections */
+    padding: 20px; 
+    flex: 1; /* Takes up two parts of the space */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    background-color: #d9b3d1; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+button {
+    padding: 10px; /* Button padding */
+    background-color: #007bff; /* Primary color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded edges */
+    cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Cart Styles */
+
+.cart-link {
+    position: absolute;
+    top: 10px;  /* Adjust as needed */
+    right: 35px; /* Adjust as needed */
+  }
+
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.cart-table th {
+    background-color: #f2f2f2;
+}
+
+.cart-total {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-total th, .cart-total td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: right;
+}
+
+.item-quantity button {
+    margin: 0 5px;
+    cursor: pointer;
+}
